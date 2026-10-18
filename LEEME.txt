@@ -1,0 +1,9 @@
+CORRECCIÓN: Google Apps Script rechaza la visualización dentro de iframe.
+
+1. En el repositorio GitHub de cuestionario.edupsic.com, reemplaza SOLO el archivo index.html por el archivo adjunto.
+2. Mantén los archivos CNAME y favicon.png como están (se incluyen por comodidad).
+3. Espera a que GitHub Pages publique los cambios y recarga la página (Cmd+Shift+R).
+4. Al abrir cuestionario.edupsic.com el navegador redirige a la aplicación Apps Script ya publicada.
+5. No es necesario actualizar Code.gs, DNS ni Google Sheets para este cambio.
+
+NOTA: esta solución no mantiene cuestionario.edupsic.com en la barra de direcciones. Para ello se requiere construir el formulario como una aplicación independiente con un mecanismo de comunicación con el servidor compatible con el alojamiento externo. Una simple incrustación iframe no es fiable.
